@@ -1,0 +1,44 @@
+// main: ../style.less
+
+.work{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 4px fade(#000, 25%);
+
+    &:hover{
+        box-shadow: 0 0 25px fade(#000, 25%);
+        transition: box-shadow .2s linear;
+    }     
+}
+
+.work__image{
+    display: block;
+    min-width: 100%;
+    height: auto; 
+}
+
+.work__content{
+    padding: 1rem .8rem;
+
+}
+
+.work__cat{
+    font-size: .75rem;
+
+    color: @black;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.work__title{
+    display: flex;
+    font-size: 1.06rem;
+    color:@black;
+    text-transform: uppercase;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.modal-work__info{
+    margin-bottom: 2rem;
+}
